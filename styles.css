@@ -17,12 +17,35 @@ a {
     position: relative;
 }
 
+a:hover {
+    border: 1px solid rgb(111, 51, 207);
+    border-radius: .2em;
+    padding: 10px;
+}
+
+.home {
+    padding: 20px;
+    text-decoration: none;
+}
+
+.about {
+    padding: 20px;
+    text-decoration: none;
+}
+
+.contact {
+    padding: 20px;
+    text-decoration: none;
+}
+
 .dropdown {
     position:relative; 
 }
 
 .droplink {
     position: relative;
+    padding: 20px;
+    text-decoration: none;
 }
 
 .drop-content {
