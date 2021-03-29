@@ -9,9 +9,18 @@
 </head>
 
 <body>
-    <nav>
-        <a href="/">HOME</a> |
-        <a href="/inventory">INVENTORY</a> |
+    <nav class="navbar">
+        <a href="/" class="home">HOME</a> |
+        <div class="dropdown">
+            <a href="/inventory" class="droplink">INVENTORY</a>
+            <div class="drop-content">
+                <a href="#">NEW</a>
+                <a href="#">USED</a>
+                <a href="#">CARS</a>
+                <a href="#">TRUCKS</a>
+                <a href="#">SUV'S</a>
+            </div> |
+        </div>
         <a href="/about">ABOUT US</a> |
         <a href="/contact">CONTACT</a>
     </nav>
