@@ -7,10 +7,15 @@ body {
 nav {
     background-color: #333232;
     color: #ffffff;
-    height: 50px;
+    height: 60px;
     padding-top: 25px;
+    padding-right: 35px;
     text-align: center;
-    line-height: 30px;
+    line-height: 35px;
+}
+
+.navMenu {
+    float: right;
 }
 
 a {
@@ -27,7 +32,6 @@ a {
 a:hover {
     border: 1px solid rgb(204, 53, 33);
     border-radius: .2em;
-    padding: 10px;
 }
 
 .aDrop:hover {
@@ -37,41 +41,64 @@ a:hover {
 }
 
 .home {
-    padding: 20px;
+   padding-right: 10px;
+    text-decoration: none;
+}
+
+.home:hover {
+    padding: 10px;
+}
+
+.contact {
+    float: right;
     text-decoration: none;
 }
 
 .about {
-    padding: 20px;
+    float: right;
     text-decoration: none;
+    
 }
 
-.contact {
-    padding: 20px;
-    text-decoration: none;
-}
-
-.wrapper {
+/* .wrapper {
     position:relative; 
-}
+} */
 
 button:active {
     border: none;
 }
 
+button:hover {
+    border: 1px solid rgb(204, 53, 33);
+    border-radius: .2em;
+}
+
 li {
     position: relative;
     list-style: none;
-    
     background-color: #333232;
     border: 1px solid rgb(204, 53, 33);
-    width: 100px;
     height: 30px;
 }
 
 ul, li, a {
+    position: relative;
     text-decoration: none;
+    width: 100px;
 }
+
+/* #trailingItems {
+    position: fixed;
+    top: 40px;
+    left: 550px;
+} */
+
+/* ul {
+    position: fixed;
+    top: 60px;
+    left: 650px;
+    width: 100px;
+} */
 
 #droplink {
     position: relative;
@@ -84,10 +111,8 @@ ul, li, a {
 }
 
 #droplink:hover {
-    border-top: none;
-    border-right: 10px solid transparent;
-    border-left: 10px solid transparent;
-    border-bottom: 2px solid rgb(204, 53, 33);
+    border: 1px solid rgb(204, 53, 33);
+    border-radius: .2em;
 }
 
 /* #droplink:active {
