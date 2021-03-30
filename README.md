@@ -10,7 +10,7 @@ Keep up with your workout plans and exercises. Check your progress in the dashbo
 
 ## Usage
 
-URL - https://arcane-fortress-88180.herokuapp.com/
+URL - https://ggfalloon.github.io/navigation-menu/
 
 ![screencapture-file-Users-gfalloon-Coding-Projects-navigation-menu-index-html-2021-03-30-14_52_34](https://user-images.githubusercontent.com/71281652/113048051-b5a3c500-9167-11eb-9006-2ce02818a504.png)
 
