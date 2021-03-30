@@ -41,31 +41,20 @@ a:hover {
 }
 
 .home {
-   padding-right: 10px;
-    text-decoration: none;
+    padding-right: 20px;
 }
 
-.home:hover {
+.home:hover, .about:hover, .contact:hover {
     padding: 10px;
 }
 
-.contact {
-    float: right;
-    text-decoration: none;
-}
-
 .about {
-    float: right;
-    text-decoration: none;
-    
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
-/* .wrapper {
-    position:relative; 
-} */
-
-button:active {
-    border: none;
+button:focus {
+    outline: 0;
 }
 
 button:hover {
@@ -73,32 +62,24 @@ button:hover {
     border-radius: .2em;
 }
 
+/* Styling below handles the inventory dropdown */
 li {
     position: relative;
     list-style: none;
     background-color: #333232;
     border: 1px solid rgb(204, 53, 33);
-    height: 30px;
+    text-align: center;
+    height: 40px;
+    width: 125px;
 }
 
 ul, li, a {
-    position: relative;
     text-decoration: none;
-    width: 100px;
 }
 
-/* #trailingItems {
-    position: fixed;
-    top: 40px;
-    left: 550px;
-} */
-
-/* ul {
-    position: fixed;
-    top: 60px;
-    left: 650px;
-    width: 100px;
-} */
+ul {
+    margin-left: 38px;
+} 
 
 #droplink {
     position: relative;
@@ -115,12 +96,13 @@ ul, li, a {
     border-radius: .2em;
 }
 
-/* #droplink:active {
-    
-    border-radius: .2em;
-    padding: 10px;
-} */
-
 .drop-content {
     display: none;
+    position: absolute;
+    min-width: 150px;
+}
+
+.drop-content:hover a:hover {
+    color:rgb(204, 53, 33);
+    border: none;
 }
