@@ -30,6 +30,12 @@ a:hover {
     padding: 10px;
 }
 
+.aDrop:hover {
+    font-size: 17px;
+    color: rgb(204, 53, 33);
+    border: none;
+}
+
 .home {
     padding: 20px;
     text-decoration: none;
@@ -49,11 +55,46 @@ a:hover {
     position:relative; 
 }
 
-.droplink {
+button:active {
+    border: none;
+}
+
+li {
     position: relative;
-    padding: 20px;
+    list-style: none;
+    
+    background-color: #333232;
+    border: 1px solid rgb(204, 53, 33);
+    width: 100px;
+    height: 30px;
+}
+
+ul, li, a {
     text-decoration: none;
 }
+
+#droplink {
+    position: relative;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #333232;
+    border: none;
+}
+
+#droplink:hover {
+    border-top: none;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 2px solid rgb(204, 53, 33);
+}
+
+/* #droplink:active {
+    
+    border-radius: .2em;
+    padding: 10px;
+} */
 
 .drop-content {
     display: none;
